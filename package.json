@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AbdusSattar-70/Leaderboard/issues"
   },
-  "homepage": "https://github.com/AbdusSattar-70/Leaderboard#readme"
+  "homepage": "https://github.com/AbdusSattar-70/Leaderboard#readme",
+  "devDependencies": {
+    "hint": "^7.1.3"
+  }
 }
