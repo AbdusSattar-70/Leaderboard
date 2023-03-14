@@ -1,2 +1,2 @@
-const URL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/1XSh9O6EI1Unx10Kgez8/scores/';
+const URL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/MdNi0k9suSPkxD3MkuAJ/scores/';
 export default URL;
