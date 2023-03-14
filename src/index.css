@@ -58,33 +58,12 @@ h1 {
   gap: 1rem;
 }
 
-.recentScore h2 {
+/* .recentScore h2 {
   animation: focus 0.5s ease-in-out infinite;
-}
+} */
 
 .form h2 {
   margin-bottom: 1rem;
-}
-
-input {
-  width: 80%;
-  height: 2.5rem;
-  padding: 0.3rem;
-  outline: none;
-  border-color: rgba(246, 62, 62, 0.356);
-  border-radius: 0.3rem;
-  transition: width 0.4s ease-in-out;
-}
-
-input:focus,
-input:hover {
-  width: 100%;
-  border-color: rgba(221, 0, 255, 0.414);
-}
-
-::placeholder {
-  font-size: 1rem;
-  color: black;
 }
 
 button {
@@ -94,29 +73,4 @@ button {
   font-size: 1rem;
   border-color: rgba(221, 0, 255, 0.414);
   border-radius: 0.3rem;
-}
-
-button:hover,
-button:focus {
-  color: red;
-  background-color: rgba(156, 60, 230, 0.272);
-}
-
-.refresh {
-  animation: refresh 1s ease-out;
-}
-
-@keyframes refresh {
-  0% {
-    opacity: 0;
-  }
-}
-
-@keyframes focus {
-  0% {
-    color: black;
-  }
-  100% {
-    color: rgb(238, 11, 11);
-  }
 }
