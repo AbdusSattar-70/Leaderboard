@@ -58,9 +58,9 @@ h1 {
   gap: 1rem;
 }
 
-/* .recentScore h2 {
+.recentScore h2 {
   animation: focus 0.5s ease-in-out infinite;
-} */
+}
 
 .form h2 {
   margin-bottom: 1rem;
