@@ -13,7 +13,6 @@
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
@@ -27,7 +26,7 @@
 
 # 📖 [Leaderboard] <a name="about-project"></a>
 
-**[Leaderboard]** is my demo project for learning the usage of API and Git workflow and it is a simple website that displays a list of players' names and scores and allows you to add that info to the list.
+**Leaderboard** is my demo project for learning the usage of API and Git workflow and it is a simple website that displays a list of players' names and scores and allows you to add that info to the list.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -49,10 +48,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[html]**
-- **[css]**
-- **[Javascript]**
-- **[Webpack]**
+- **Allows add players**
+- **Allows add score**
+- **shows recent score by name**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -60,7 +58,7 @@
 
 ## 🚀 Live Demo<a name="live-demo"></a>
 
-- It will come when complete the project.
+- [Live Demo Link](https://abdussattar-70.github.io/Leaderboard/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,8 +81,9 @@ To know simple html, css, npm, and linter.
 ### Setup
 
 Clone this repository to your desired folder:
-cd my-folder
-git clone https://github.com/AbdusSattar-70/Leaderboard.git
+
+- cd my-folder
+- git clone https://github.com/AbdusSattar-70/Leaderboard.git
 
 ### Install
 
@@ -111,6 +110,7 @@ You can deploy this project using:
 
 - gitHub pages/
 - npm run build
+- npm start
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,9 +130,9 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Preserve data in the browser ]**
-- [ ] **[Display Data From API]**
-- [ ] **[POST Data to API]**
+- [ ] **Preserve data in the browser**
+- [ ] **Display Data From API**
+- [ ] **POST Data to API**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
