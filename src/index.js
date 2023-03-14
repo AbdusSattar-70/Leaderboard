@@ -12,10 +12,12 @@ form.addEventListener('submit', (event) => {
 });
 
 const refresh = () => {
+  const body = document.querySelector('body');
   const refresh = document.querySelector('#refresh');
   refresh.addEventListener('click', () => {
     getDataFromAPI();
     displayOnUI();
+    body.classList.toggle('refresh');
   });
 };
 refresh();
