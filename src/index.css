@@ -95,3 +95,28 @@ button {
   border-color: rgba(221, 0, 255, 0.414);
   border-radius: 0.3rem;
 }
+
+button:hover,
+button:focus {
+  color: red;
+  background-color: rgba(156, 60, 230, 0.272);
+}
+
+.refresh {
+  animation: refresh 1s ease-out;
+}
+
+@keyframes refresh {
+  0% {
+    opacity: 0;
+  }
+}
+
+@keyframes focus {
+  0% {
+    color: black;
+  }
+  100% {
+    color: rgb(238, 11, 11);
+  }
+}
