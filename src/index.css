@@ -116,6 +116,7 @@ button:focus {
   0% {
     color: black;
   }
+
   100% {
     color: rgb(238, 11, 11);
   }
