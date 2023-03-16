@@ -13,6 +13,7 @@
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
+  - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
@@ -24,13 +25,13 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Leaderboard] <a name="about-project"></a>
+## 📖 Leaderboard <a name="about-project"></a>
 
 **Leaderboard** is my demo project for learning the usage of API and Git workflow and it is a simple website that displays a list of players' names and scores and allows you to add that info to the list.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
+## Tech Stack <a name="tech-stack"></a>
 
 <details>
   <summary>Client</summary>
@@ -46,7 +47,7 @@
 
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
+## Key Features <a name="key-features"></a>
 
 - **Allows add players**
 - **Allows add score**
@@ -64,53 +65,66 @@
 
 <!-- GETTING STARTED -->
 
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
+## Prerequisites <a name="prerequisites"></a>
 
 In order to run this project you need:
-To know simple html, css, npm, and linter.
+# It would be best if you had some familiarity with `HTML`, `CSS`, and `JS`.
 
 - A Computer (MAC or PC)
 - code editor (VSCode,Atom etc...)
 - A browser (Chrome,Mozilla,Safari etc...)
 - Version Control System (Git and Github)
 
-### Setup
+## Setup <a name="setup"></a>
 
 Clone this repository to your desired folder:
 
-- cd my-folder
-- git clone https://github.com/AbdusSattar-70/Leaderboard.git
+ ``` bash
+        git clone https://github.com/AbdusSattar-70/Leaderboard.git
+        cd Leaderboard 
+ ```
 
-### Install
+## Install <a name="install"></a>
 
 Install this project with:
 
-- npm install
-- npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-- npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+``` bash 
+     npm install
+```
+## Usage <a name="usage"></a>
 
-### Run tests
+You can use it to store game data in a remote location and see when you want for fun!
+
+## Run tests <a name="run-tests"></a>
 
 To run tests, run the following command:
 
-- npm audit
-- npm start
-  To check Styelint error:-
+- To check Styelint error:-
 
-- npx stylelint "\*_/_.{css,scss}"
-- bin/react test test/models/article_test.rb
+``` bash
+   npx stylelint "\*_/_.{css,scss}"
+```
+- To check Eslint error:-
+```bash
+  npx exlint .
+```
+- To check webhint error:-
+```bash
+  npx hint .
+```
 
-### Deployment
+## Deployment <a name="triangular_flag_on_post-deployment"></a>
 
 You can deploy this project using:
 
-- gitHub pages/
-- npm run build
-- npm start
+```bash
+   npm run build
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,9 +134,9 @@ You can deploy this project using:
 
 ## 👤 Abdus Sattar
 
-- GitHub: [@githubhandle](https://github.com/AbdusSattar-70)
-- Twitter: [@twitterhandle](twitter.com/Abdus_Sattar70)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdus-sattar-a41a26215/)
+- GitHub: [AbdusSattar-70](https://github.com/AbdusSattar-70)
+- Twitter: [Abdus Sattar](https://twitter.com/Abdus_Sattar70)
+- LinkedIn: [Abdus Sattar](https://www.linkedin.com/in/abdus-sattar-a41a26215/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,9 +144,9 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Preserve data in the browser**
-- [ ] **Display Data From API**
-- [ ] **POST Data to API**
+- [ ] **To add delete data**
+- [ ] **To add put and patch**
+- [ ] **Add luxury design**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,7 +154,7 @@ You can deploy this project using:
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Everybody is welcome to suggest, changes,Contributions, issues, and feature request in portfolio html css file.
+Everybody is welcome to suggest, changes,Contributions, issues, and feature request in this repo.
 
 In order to do it, fork this repository, create a new branch and open a Pull Request from your branch.
 
@@ -160,6 +174,8 @@ If you like this project, Please give me ⭐️ and you can use it following [MI
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+Thanks ❤️ to all of my coding partners, team members, and specifically Microverse code reviewers to help me to figure issues out.
+
 I would like to thank and appreciate who contributes this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -168,6 +184,6 @@ I would like to thank and appreciate who contributes this project.
 
 ## 📝 License <a name="license"></a>
 
-This project is under [MIT](./LICENSE) license.
+This project is under [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
