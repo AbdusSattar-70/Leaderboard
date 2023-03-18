@@ -1,17 +1,16 @@
-import URL from './url.js';
+import APIurl from './url.js';
 
-/* post or create player on API */
-const postDataOnAPI = async (user, score) => {
-  const option = {
-    method: 'POST',
+const requestAPI = async (method, data) => {
+  const options = {
+    method,
     headers: {
       'Content-Type': 'application/json',
     },
-    body: JSON.stringify({ user, score }),
+    body: JSON.stringify(data),
   };
-  const response = await fetch(URL, option);
-  const data = await response.json();
-  return data;
+  const response = await fetch(APIurl, options);
+  const result = await response.json();
+  return result;
 };
 
-export default postDataOnAPI;
+export default requestAPI;
