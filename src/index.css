@@ -20,7 +20,43 @@
 }
 
 h1 {
-  font-size: 2.5rem;
+  position: relative;
+  font-size: 3.5rem;
+  color: rgba(126, 15, 195, 0.044);
+  padding-top: 1rem;
+  padding-left: 1rem;
+  letter-spacing: 0.1em;
+  -webkit-text-stroke: 0.3vw rgba(247, 244, 244, 0);
+  text-transform: uppercase;
+}
+
+h1::before {
+  content: attr(data-text);
+  padding-left: 1rem;
+  position: absolute;
+  padding-top: 1rem;
+  top: 0;
+  left: 0;
+  right: 50%;
+  width: 0;
+  height: 100%;
+  color: #066eaafe;
+  -webkit-text-stroke: 0 #d717f4;
+  animation: header 8s linear infinite;
+  overflow: hidden;
+}
+
+@keyframes header {
+  0%,
+  10%,
+  100% {
+    width: 0;
+  }
+
+  70%,
+  90% {
+    width: 100%;
+  }
 }
 
 .subContainer {
@@ -102,22 +138,49 @@ button:focus {
   background-color: rgba(156, 60, 230, 0.272);
 }
 
-.refresh {
-  animation: refresh 1s ease-out;
-}
+/* Global styles for all devices */
 
-@keyframes refresh {
-  0% {
-    opacity: 0;
-  }
-}
+/* Styles for desktop and tablet devices */
 
-@keyframes focus {
-  0% {
-    color: black;
+@media (max-width: 767px) {
+  body {
+    margin: 0.5rem;
   }
 
-  100% {
-    color: rgb(238, 11, 11);
+  .mainSection {
+    width: 90%;
+    gap: 1rem;
+    margin: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .subContainer {
+    flex-direction: column;
+  }
+
+  .scoreContainer {
+    width: 80%;
+  }
+
+  .recentScore {
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  .displayScore li {
+    font-size: 1rem;
+  }
+
+  input {
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+
+  button {
+    width: 80%;
   }
 }
