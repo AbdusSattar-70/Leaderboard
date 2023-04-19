@@ -6,8 +6,11 @@
   box-sizing: border-box;
   list-style: none;
   overflow-x: hidden;
-  background-blend-mode: hard-light;
-  background-color: rgba(126, 15, 195, 0.044);
+}
+
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(234, 175, 204, 1) 5%, rgba(230, 175, 205, 1) 9%, rgba(224, 176, 207, 1) 15%, rgba(190, 181, 218, 1) 53%, rgba(169, 184, 226, 1) 77%, rgba(148, 187, 233, 1) 100%);
 }
 
 .mainSection {
@@ -59,6 +62,13 @@ h1::before {
   }
 }
 
+h2 {
+  font-size: 50px;
+  background: -webkit-linear-gradient(#0408fc, #f7038d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .subContainer {
   width: 100%;
   display: flex;
@@ -72,30 +82,29 @@ h1::before {
 .recentScore {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 2rem;
 }
 
 .displayScore {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  margin: 0.5rem;
   padding: 0.5rem;
-  border: 1px solid rgba(221, 0, 255, 0.414);
+  border: 1px solid #8d77fe;
+  height: 50vh;
+  overflow-y: auto;
 }
 
 .displayScore li {
-  background-color: rgba(193, 137, 235, 0.129);
+  background-color: rgb(151 19 239 / 13%);
   font-size: 1.5rem;
+  padding: 0.5rem;
+  margin: 1rem;
 }
 
 .form {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-}
-
-.recentScore h2 {
-  animation: focus 0.5s ease-in-out infinite;
 }
 
 input {
@@ -129,13 +138,14 @@ button {
   height: 2rem;
   font-size: 1rem;
   border-color: rgba(221, 0, 255, 0.414);
+  background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
   border-radius: 0.3rem;
 }
 
 button:hover,
 button:focus {
   color: red;
-  background-color: rgba(156, 60, 230, 0.272);
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
 }
 
 /* Global styles for all devices */
