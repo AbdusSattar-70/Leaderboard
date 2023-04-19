@@ -27,7 +27,14 @@
 
 ## 📖 Leaderboard <a name="about-project"></a>
 
-**Leaderboard** is my demo project for learning the usage of API and Git workflow and it is a simple website that displays a list of players' names and scores and allows you to add that info to the list.
+This project is a Single Page Application (SPA) that interacts with a Leaderboard API to display a list of players' names and scores. Users can add new players' scores to the list, which is then stored in the API.
+
+The project uses Webpack for bundling and optimizing code. Webpack allows you to combine all your JavaScript modules into a single file, reducing the number of HTTP requests required to load a web page. This results in a faster and more responsive web page for users.
+
+The project is designed to provide a hands-on learning experience for those interested in learning about APIs, Git workflow, and Webpack. Through this project, users will learn how to fetch data from a remote server, manipulate the DOM to display the data, and send data back to the server to be stored. They will also learn how to use Git for version control, including creating and managing branches, committing changes, and merging them back into the main branch.
+
+Overall, this project is a great way to gain practical experience in web development and gain valuable knowledge that can be applied to other projects in the future.
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -59,7 +66,7 @@
 
 ## 🚀 Live Demo<a name="live-demo"></a>
 
-- [Live Demo Link](https://abdussattar-70.github.io/Leaderboard/dist/)
+- [Live Demo Link](https://glittering-lily-6961e8.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -144,9 +151,10 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **To add delete data**
-- [ ] **To add put and patch**
-- [ ] **Add luxury design**
+- Implement the ability to delete data from the Leaderboard API.
+- Implement PUT and PATCH requests to update existing data in the API.
+- Improve the visual design of the application to create a more aesthetically pleasing and user-friendly experience.
+- This could include the use of advanced CSS techniques, animations, and custom graphics to make the application look more luxurious and modern.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
